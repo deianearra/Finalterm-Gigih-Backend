@@ -1,0 +1,37 @@
+### 
+GET http://localhost:3000/videos
+
+###
+POST http://localhost:3000/videos
+Content-Type: application/json
+
+{
+    "videoID": "4wj-0S2Ns8o",
+    "thumbnailUrl": "https://i.ytimg.com/vi_webp/4wj-0S2Ns8o/maxresdefault.webp",
+    "title": "Anomali | Asus VA24EHF"
+}
+
+### 
+GET http://localhost:3000/comments/64da62e9994255cb6d727d8b/
+
+###
+POST http://localhost:3000/comments/64da62e9994255cb6d727d8b/
+Content-Type: application/json
+
+{
+  "username":"Dewa",
+  "comment":"Alana keren"
+}
+
+### 
+GET http://localhost:3000/videos
+
+###
+POST http://localhost:3000/videos
+Content-Type: application/json
+
+{
+    "videoID": "4wj-0S2Ns8o",
+    "thumbnailUrl": "https://i.ytimg.com/vi_webp/4wj-0S2Ns8o/maxresdefault.webp",
+    "title": "Anomali | Asus VA24EHF"
+}
